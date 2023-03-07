@@ -1,0 +1,107 @@
+*
+{
+    margin : 0px
+}
+
+/* tout */
+.main {
+    width: 100%
+}
+/* Barre de nav */
+nav {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(139, 85, 23);
+    padding : 20px 0px 12px 400px;
+    text-align: center;
+
+}
+
+/* Background */
+div.image {
+    background-color: #333;
+    background-image: url('/img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 87%;
+    background-position: 140px 0px;
+    background-attachment: fixed;
+    height: 700px
+}
+
+
+div.text {
+    padding: 75px;
+    text-align: center;
+    background-color: rgb(211, 237, 247);
+    color: blue;
+    height: 500px;
+    font-size: 35px;
+    transform: translate();
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* Boutons */
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 16%;
+    background-color: rgb(31, 137, 7);
+    color: rgb(34, 19, 173);
+    font-family: 'Pacifico', cursive;
+    border-bottom : 10px solid rgb(24, 103, 6) ;
+    border-right : 7px solid rgb(24, 103, 6);
+    
+}
+
+/* au passage des boutons */
+nav a:hover {
+    color: aqua;
+}
+
+/* Au clique des boutons */
+nav a:active {
+    border-bottom: 2px solid red;
+    border-right: 1px solid red;
+    transition: 0.2s;
+    color: red;
+}
+
+
+
+/* Boutons2 */
+
+a.button2 {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 16%;
+    background-color: rgb(31, 137, 7);
+    color: rgb(34, 19, 173);
+    font-family: 'Pacifico', cursive;
+    border-bottom : 10px solid rgb(24, 103, 6) ;
+    border-right : 7px solid rgb(24, 103, 6);
+    
+}
+
+/* au passage des boutons */
+a.button2:hover {
+    color: aqua;
+}
+
+/* Au clique des boutons */
+a.button2:active {
+    border-bottom: 2px solid red;
+    border-right: 1px solid red;
+    transition: 0.2s;
+    color: red;
+}
+
+
+@media (max-width: 1000px) {
+    nav {
+        padding : 20px 0px 12px 80px;
+
+        }
+}
